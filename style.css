@@ -1,0 +1,27 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 350;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1F2937;
+    margin: -10px;
+    color: white;
+
+}
+
+.headerlogo{
+    font-size: 24px;
+    font-weight: 700;
+
+}
