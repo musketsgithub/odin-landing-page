@@ -1,5 +1,15 @@
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: white;
+    margin: -10px;
+
 }
 
 .header li{
@@ -10,18 +20,91 @@
     font-weight: 350;
 }
 
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #1F2937;
-    margin: -10px;
-    color: white;
-
-}
-
 .headerlogo{
     font-size: 24px;
     font-weight: 700;
 
+}
+
+.block1{
+    background-color: #1F2937;
+    display: block;
+    height: 355px;
+    margin: -10px;
+    display: flex;
+    flex-basis: 50%;
+    padding: 100px;
+    gap: 20px;
+
+}
+
+.block1 *{
+    width: 100%;
+}
+
+.block1child1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.block1child1head{
+    font-size: 48px;
+    font-weight: 900;
+    color: F9FAF8;
+    margin: 0;
+}
+
+.block1child1text{
+    font-weight: 350;
+    margin: 0;
+}
+
+.signup{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 700;
+    background: #3882F6;
+}
+
+.block1child2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(129, 129, 129);
+
+}
+
+.block2{
+    background-color: white;
+    margin: -10px;
+}
+
+.block2header{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.block2elements{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.block2elements *{
+    height: 200px;
+    flex-basis: 200px;
+}
+
+.img1, .img2, .img3, .img4{
+    border: 5px solid #3882F6;
+    border-radius: 20px;
 }
